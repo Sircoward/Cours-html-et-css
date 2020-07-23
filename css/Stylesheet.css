@@ -1,0 +1,82 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 0px
+}
+
+figure {
+    width: 500px;
+    padding: 8px;
+    border: 10px solid rgb(88, 88, 88);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: 100px;
+    border: 10px soldi black;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 135px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 500px;
+    transform: translate(1px, -50%);
+    margin-left: -1px;
+}
+
+thead,
+tfoot {
+    background-color: blue;
+    color: white;
+}
+
+tbody {
+    background-color: pink;
+    padding: 8px;
+}
+
+td:hover {
+    background-color: red;
+}
+
+#modif-moste ul {
+    list-style: none;
+}
+
+caption {
+    z-index: 2;
+    caption-side: bottom;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 120px;
+}
+
+
+/* div et les p /
+
+
+/ div,
+p {
+    background-color: red;
+} /
+
+
+/ les p dans les div ON LIT DE DROITE A GAUCHE /
+
+
+/ div p{
+        background-color: red;
+ } */
+
+
+/*
