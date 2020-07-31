@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    background: grey;
+    justify-content: center;
+
+
+}
+
+section {
+    margin-top: 1000px;
+}

@@ -1,0 +1,72 @@
+section {
+    display: flex;
+    background: #ada9a9;
+    flex-direction: row;
+    height: 180px;
+}
+
+#card_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: medium solid black;
+    width: 70px;
+    height: 150px;
+    background: green;
+    z-index: 4;
+    position: relative;
+    box-shadow: 3px 3px 3px;
+    
+}
+
+#card_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: medium solid black;
+    width: 70px;
+    height: 150px;
+    background: green;
+    z-index: 3;
+    position: relative;
+    right: 5px;
+    box-shadow: 3px 3px 3px;
+}
+
+#card_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: medium solid black;
+    width: 70px;
+    height: 150px;
+    background: green;
+    z-index: 2;
+    position: relative;
+    right: 7px;
+    box-shadow: 3px 3px 3px;
+}
+
+#card_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: medium solid black;;
+    width: 70px;
+    height: 150px;
+    background: green;
+    z-index: 1;
+    position: relative;
+    right: 10px;    
+    box-shadow: 3px 3px 3px;
+}
+
+#under{
+    display: flex;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    align-items: baseline;
+}

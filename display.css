@@ -1,0 +1,35 @@
+/*Selecteur*/
+#modif-list ul {
+    list-style: none;
+}
+
+/*------------------------*/
+/*   Gestion des enfants  */
+/*------------------------*/
+
+/* nth-of-type(an) nth-of-type(an+8) veut dire qu'on va répéter les attributs*/
+span:nth-of-type(2n) {
+    background-color: blue;
+}
+
+/*nth-of-type(an) nth-of-type(an+0) veut dire qu'on va répéter les attributs */
+span:nth-of-type(2) {
+    background-color: green;
+}
+
+span:nth-of-type(5) {
+    background-color: orange;
+}
+/*div et les p*/
+/* div, p {
+    background-color: red;
+ */
+
+/* les p dans les div on lit de droite a gauche */
+/*div p {
+    background-color: red;
+}
+/*Modification d'un enfant précis */
+/*body div:nth-child(3):hover{
+       background-color: blue;
+}*/

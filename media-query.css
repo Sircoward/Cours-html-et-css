@@ -1,0 +1,58 @@
+/*-----------------GROS ECRAN-----------------*/
+@media screen and (min-width: 1281){
+    main{
+        width: 95%;
+        /*min height: 100vh;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    div {
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        align-items: center,
+    }
+    span {
+        background-color: black;
+        border-radius: 50%;
+        display: block;
+        font-size: 48px;
+        height: auto;
+        line-height: 3em;
+        text-align: center;
+        width: auto;
+        padding: 15px;
+       }
+       #ecran-classique,
+       #grande-tablette,
+       #petite-tablette,
+       #ecran-smartphone {
+           display: none;
+       }
+
+       div {
+           background-color: green;
+       }
+}
+/*----------------ORDINATEUR*/
+@media screen and (min-width : 1025px) and (max-width : 1280px){
+
+}
+/*Grande tablette*/
+@media screen and (min-width: 769px) and (max-width : 1024px){
+
+}
+/*Tablette*/
+@media screen and (min-width : 481px) and (max-width : 768px){
+
+}
+/*Smarthphone*/
+@media screen and (min-width : 320px) {
+
+}

@@ -1,0 +1,39 @@
+div {
+    height: auto;
+    background-color: blue;
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+}
+/* Position absolute : sort du flux et se positionne par rapport au premmier parent positionné en relative sinon
+par rapport à la page */
+.orange{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+/*position: absolute;
+top: 150px;
+left: 150px;
+z-index: 1; */
+
+}
+/*Position relative : par rapport à sa position de base dans le flux*/
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.violet {
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+}

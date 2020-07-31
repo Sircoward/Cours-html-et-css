@@ -1,0 +1,72 @@
+header{
+    background: black;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+header h2{
+    font-size: 0.2em;
+}
+
+#title{
+    display: flex;
+    background: rgb(104, 84, 131);
+    width: auto;
+    height: 400px
+    
+}
+
+#title article {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+
+
+}
+
+#title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.459);
+    width: 370px;
+    height: 45px;
+    
+}
+
+#statistique {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+#statistique article {
+    border: 1px solid white;
+    border-collapse: collaspse;
+
+}
+
+#statistique h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#services {
+    background: white;
+    color: black;
+}

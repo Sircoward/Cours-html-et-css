@@ -1,0 +1,79 @@
+/*-------------------------------------*/
+/*      Animation : avec transform     */
+/*-------------------------------------*/
+/* transition: <transition-property> <transition-duration> <transition-timing-function> <transition-delay>; */
+
+.essai01 {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
+
+.essai01:hove {
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
+    transform: translate(200px, 10px) rotate(180deg);
+    -webkit-transform: translate(200px, 10px) rotate(180deg);
+    -moz-transform: translate(200px, 10px) rotate(180deg);
+    -ms-transform:  translate(200px, 10px) rotate(180deg);
+    -o-transform:  translate(200px, 10px) rotate(180deg);
+}
+/*************************************/
+/* animation*/
+
+.essai02 {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
+
+.essai02:hover {
+    animation-name: animationFrames;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: fowards;
+}
+
+/*-------------------------*/
+/*         Keyframes       */
+/*-------------------------*/
+
+@keyframes animationRigolote{
+    from {
+        transform: translate(0px, 0px) rotate(0deg);
+        -webkit-transform: translate(200px, 0px) rotate(180deg);
+        -moz-transform: translate(200px, 0px) rotate(180deg);
+        -ms-transform: translate(200px, 0px) rotate(180deg);
+        -o-transform: translate(200px, 0px) rotate(180deg);
+
+    }  
+    to {
+        transform: translate(200px, 0px) rotate(180deg);
+        -webkit-transform: translate(200px, 0px) rotate(180deg);
+        -moz-transform: translate(200px, 0px) rotate(180deg);
+        -ms-transform: translate(200px, 0px) rotate(180deg);
+        -o-transform: translate(200px, 0px) rotate(180deg);
+    }
+}
+
+@keyframes animationFrames {
+    0%{
+        transform: translate(0px, 0px) rotate(0deg)
+    }
+    10%{
+        transform: translate(14px, 0px) rotate(12deg)
+    }
+    20%{
+        transform: translate(24px, 0px) rotate(22deg)
+    }
+    30%{
+        transform: translate(34px, 0px) rotate(32deg)
+    }
+    40%{
+        transform: translate(44px, 0px) rotate(40deg)
+    }
+    50%{
+        transform: translate(54px, 0px) rotate(52deg)
+    }
+}

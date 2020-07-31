@@ -1,0 +1,32 @@
+/*Le background des prénoms s'afficheront en bleu lorsque que l'utilisateur passera ça souris au-desus*/
+.prenom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.prenom:hover {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+/* tableau avec affichage de couleur interactif */
+table {
+    empty-cells: show;
+    border-collapse: collapse;
+    
+}
+
+td {
+    background: #fff;
+    border: 2px solid green;
+    padding: 30px 30px;
+    transition-property: background-color;
+    transition-duration:1;
+    transition-delay: 2s;
+    animation-delay: 2s;
+  }
+
+td.green:hover{
+    background-color: green;
+}
